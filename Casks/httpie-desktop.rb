@@ -7,11 +7,9 @@ cask "httpie-desktop" do
 
   url "https://github.com/httpie/desktop/releases/download/v#{version}/HTTPie-#{version}#{arch}.dmg",
       verified: "github.com/httpie/desktop"
-
   name "HTTPie Desktop"
-  desc "HTTPie Desktop interface"
+  desc "Desktop version of the HTTPie cli API/REST tool"
   homepage "https://httpie.io/"
-
 
   app "HTTPie.app"
 end
